@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE products
+[
+<!ELEMENT products (productname,price,material,shopaddress,contactno)>
+<!ELEMENT productname (#PCDATA)>
+<!ELEMENT price (perladdu,perkgladdu)>
+<!ELEMENT perladdu (#PCDATA)>
+<!ELEMENT perkgladdu (#PCDATA)>
+<!ELEMENT material (#PCDATA)>
+<!ELEMENT shopaddress (villagename,areaname,shopno)>
+<!ELEMENT villagename (#PCDATA)>
+<!ELEMENT areaname (#PCDATA)>
+<!ELEMENT shopno (#PCDATA)>
+<!ELEMENT contactno (email,phonenumber,facebook)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT phonenumber (#PCDATA)>
+<!ELEMENT facebook (#PCDATA)>
+]>
+
+<products>
+<productname>Tun Tun mossi ke laddu</productname>
+<price>
+    <perladdu>Rs10</perladdu>
+    <perkgladdu>Rs65000</perkgladdu>
+</price>
+<material>Besan</material>
+<shopaddress>
+    <villagename>DholakPur</villagename>
+    <areaname>chutki ka Ghar</areaname>
+    <shopno>Shop Number 420</shopno>
+</shopaddress>
+<contactno>
+    <email>tuntunmosi42@gmail.com</email>
+    <phonenumber>068435125</phonenumber>
+    <facebook>Tun Tun Ke Laddu</facebook>
+</contactno>
+</products>
