@@ -1,0 +1,28 @@
+{
+  "Restaurant Name": "Pizza Hut",
+  "Branches": [
+    "North Nazimabad Block A",
+    "defence",
+    "Liaquatabad",
+    "jauhar",
+    "Gulshan"
+  ],
+  "Total Branches": 5,
+  "Menu Items": [
+    "c.t",
+    "c.f",
+    "phantom",
+    "mughlai",
+    "peporani"
+  ],
+  "Chicken Tikka": {
+    "Size": [
+      "Regular",
+      "Large"
+    ],
+    "Price": {
+      "Regular": 700,
+      "Large": 999
+    }
+  }
+}
