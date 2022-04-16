@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE LIST[
+<!ELEMENT GroceryList (Groceryitems,item1,item2,item3,item4,item5) >
+<!ELEMENT Groceryitems (#PCDATA)>
+<!ELEMENT item1 (item1name,item1size,item1price)>
+<!ELEMENT item1name (#PCDATA)>
+<!ELEMENT item1size (#PCDATA)>
+<!ELEMENT item1price (#PCDATA)>
+<!ELEMENT item2 (item2name,item2size,item2price)>
+<!ELEMENT item2name (#PCDATA)>
+<!ELEMENT item2size (#PCDATA)>
+<!ELEMENT item2price (#PCDATA)>
+<!ELEMENT item3 (item3name,item3size,item3price)>
+<!ELEMENT item3name (#PCDATA)>
+<!ELEMENT item3size (#PCDATA)>
+<!ELEMENT item3price (#PCDATA)>
+<!ELEMENT item4 (item4name,item4size,item4price)>
+<!ELEMENT item4name (#PCDATA)>
+<!ELEMENT item4size (#PCDATA)>
+<!ELEMENT item4price (#PCDATA)>
+<!ELEMENT item5 (item5name,item5size,item5price)>
+<!ELEMENT item5name (#PCDATA)>
+<!ELEMENT item5size (#PCDATA)>
+<!ELEMENT item5price (#PCDATA)>
+]>
+
+<GroceryList>
+    <Groceryitems>
+    <item1>
+        <item1name> Atta</item1ame>
+        <item1size>5kg</item1size>
+        <item1price>900</item1price>
+</item1>
+    <item2>
+
+        <item2name>Daal</item2name>
+        <item2size>5kg</item2size>
+        <item2price>600</item2price>
+        </item2>
+    <item3>
+
+        <item3name>Sugar</item3name>
+        <item3size>5kg</item3size>
+        <item3price>1020</item3price>
+        </item3>
+
+    <item4>
+        
+        <item4name>Milk</item4name>
+        <item4size>10 Liter</item4size>
+        <item4price>1500</item4price>
+        </item4>
+
+    <item5>
+        <item5name>Besan</item5name>
+        <item5size>6kg</item5size>
+        <item5price>900</item5price>
+        </item5>
+
+    </Groceryitems>
+</GroceryList>

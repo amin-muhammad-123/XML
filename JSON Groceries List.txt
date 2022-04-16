@@ -1,0 +1,54 @@
+{ "Grocery List" : "GL",
+  "Grocery Items":[
+"Atta",
+  "Daal",
+  "Sugar",
+  "Milk",
+  "Besan"
+  ],
+"Total items": 5,
+  
+  "Atta":{
+    "Size": [
+    "10 kg"
+    ],
+    "Price":{
+      "Packet":1050
+    }    
+  },
+
+   "Daal":{
+    "Size": [
+    "1 kg"
+    ],
+    "Price":{
+      "Packet":500
+    }    
+  },
+
+   "Sugar":{
+    "Size": [
+    "5 kg"
+    ],
+    "Price":{
+      "Packet":690
+    }    
+  },
+
+   "Milk":{
+    "Size": [
+    "10 litre"
+    ],
+    "Price":{
+      "Packet":1180
+    }    
+  },
+   "Besan":{
+    "Size": [
+    "5 kg"
+    ],
+    "Price":{
+      "Packet":990
+    }    
+  }
+}
